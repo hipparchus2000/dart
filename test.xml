@@ -1,0 +1,7 @@
+<blue>
+	<red>
+		Hello there and welcome
+	</red><include>test1</include>
+	<red>bye</red><red>and goodbye</red>
+</blue>
+

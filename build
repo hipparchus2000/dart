@@ -1,0 +1,11 @@
+gcc -o dart dart.c 2> x.x
+more x.x
+gcc -o includer includer.c -ggdb 2> x.x
+more x.x
+# for 486
+#cp dart /var/lib/httpd/cgi-bin
+cp dart /var/www/cgi-bin
+cp transform /usr/bin
+cp trans-html.sed /usr/bin
+cp includer /usr/bin
+

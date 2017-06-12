@@ -1,0 +1,10 @@
+#!/bin/sh
+# parameter 1 is file to transform, parameter 2 is type of
+# object, parameter 3 is name (minus extension).
+
+#do a html transformation
+#pipe output to the html file, pipe stderr to .log
+includer /repository/$3.xml > /repository/$3.inc
+sed -f /usr/bin/trans-html.sed /repository/$3.inc > /repository/$3.htm 2>/repository/$3.log
+
+

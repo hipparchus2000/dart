@@ -1,0 +1,17 @@
+1. add username password rights row checking
+2. add admin menu options
+      Add User
+      Search Users
+      modify User
+      Initialise Tables
+3. Make Search work properly
+4.   Add Document Object Type definition
+5.     Modify Document Type definition
+6. Search Document Type definition
+7. Find doctype and select correct transform.
+8. Add dates & username to submission & searching.
+
+
+   
+
+
